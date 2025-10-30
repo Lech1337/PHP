@@ -1,0 +1,23 @@
+body {
+    background: #F6E5DC;
+    font-family: Verdana, sans-serif;
+}
+.baner {
+    background-color: #2F180C;
+    text-align: center;
+    color: khaki;
+    height: 60px;
+}
+.lewy {
+    float: left;
+    width: 60%;
+}
+.prawy {
+    font-size: 150%;
+    padding: 70px;
+}
+.dolny {
+    background-color: #D0B6A8;
+    text-align: center;
+    padding: 30px;
+}
