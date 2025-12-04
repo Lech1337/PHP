@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodawanie Obramowanego Akapitu</title>
+    <style>
+        .ramka {
+            border: 2px solid green; /* Zielona ramka */
+            background-color: yellow; /* Jasnozielone tło */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="kontenerAkapitow">
+        <h3>Kliknij przycisk, aby dodać akapit:</h3>
+    </div>
+    
+    <button class="przycisk" onclick="dodajAkapit()">Dodaj Akapit z Imieniem</button>
+
+    <script>
+        function dodajAkapit() {
+            const imie = "Kamil"; 
+            
+            // 2. Pobranie kontenera, do którego chcemy dodać nowy element
+            const kontener = document.getElementById('kontenerAkapitow');
+            
+            // 3. Utworzenie nowego elementu <p> (akapit)
+            const nowyAkapit = document.createElement('p');
+            
+            // 4. Dodanie klasy CSS 'ramka' do akapitu
+            nowyAkapit.classList.add('ramka');
+            
+            // 5. Ustawienie treści akapitu na zdefiniowane imię
+            nowyAkapit.textContent = `Akapit dodany przez: ${imie}`;
+            
+            // 6. Dodanie nowego akapitu na koniec kontenera
+            kontener.appendChild(nowyAkapit);
+        }
+    </script>
+
+</body>
+</html>

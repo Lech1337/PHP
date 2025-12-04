@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+.shadow-header {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #4CAF50; 
+    
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+}
+
+
+.color-example {
+    font-size: 1.1em;
+    
+    color: rgba(180, 0, 0, 0.5); 
+}
+
+
+.transform-example {
+
+    text-transform: uppercase; 
+    color: navy;
+}
+
+
+.decoration-example {
+    
+    text-decoration: underline wavy red, line-through; 
+    padding: 5px 0;
+}
+
+
+.spacing-example {
+
+    word-spacing: 10px; 
+    color: #8A2BE2; 
+}
+
+.spacing-example .letter {
+    letter-spacing: 3px; 
+    font-weight: bold;
+}
+
+
+.line-height-example {
+    line-height: 2; 
+    border-left: 5px solid orange;
+    padding-left: 10px;
+}
+
+.align-example {
+    font-size: 1.5em;
+    color: #008080;
+}
+
+.align-example .sub {
+    vertical-align: sub; 
+    font-size: 0.7em;
+    color: red;
+}
+
+.align-example .super {
+    vertical-align: super; 
+    font-size: 0.7em;
+    color: blue;
+}

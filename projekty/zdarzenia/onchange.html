@@ -1,0 +1,10 @@
+<p>Wpisz imie</p>
+<input type="text" id="fname" onchange="MyFunction()"> <br>
+<input type="text">
+
+<script>
+    function MyFunction(){
+        let x=document.querySelector("#fname");
+        x.value=x.value.toUpperCase();
+    }
+</script>
